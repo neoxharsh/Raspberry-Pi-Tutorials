@@ -9,7 +9,7 @@ Now execute the script or manually enter the commands in the following order.
 
 ```bash
 sudo apt-get update && sudo apt-get upgrade
-sudo apt-get install matchbox xorg x11-xserver-utils ttf-mscorefonts-installer xwit sqlite3 libnss3
+sudo apt-get install matchbox x11-xserver-utils ttf-mscorefonts-installer xwit sqlite3 libnss3 xorg galculator
 ```
 
 ```bash
@@ -33,8 +33,7 @@ while true; do
 xset -dpms
 xset s off
 matchbox-window-manager &
-galculator (replace with the program of your choice)
-
+galculator
 done;
 ```
 That it..
